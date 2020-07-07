@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sonagi</title>
+	<link rel="stylesheet" type="text/css" href="full-page-scroll.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="e.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<style type="text/css">
+	.section1 {
+		background-image:url(img/fi.png);
+		background-position: center;
+	}
+
+	.section2 {
+		background-image:url(img/two.png);
+		background-position: center; 
+	}
+
+	.section3 {
+		background-image:url(img/thre.png);
+		background-position: center;
+	}
+
+	.section4 {
+		background-image:url(img/fout.png);
+		background-position: center;
+	}
+
+			
+	section div {
+		font-family: 'Open Sans';
+		font-style: normal;
+		text-align: center;
+		position: relative;
+		top: 50%;  
+		transform: translateY(-50%);
+	}
+
+	span {
+		font-size: 4em;
+		font-style: normal;
+		color: #fff;
+	}
+
+	.typing-txt{display: none;}
+	ul{list-style:none;}
+	.typing ul li.on {  
+	display: inline-block; 
+	animation-name: cursor; 
+	animation-duration: 0.3s; 
+	animation-iteration-count: infinite; 
+	} 
+	@keyframes cursor{ 
+	0%{border-right: 1px solid #fff} 
+	50%{border-right: 1px solid #000} 
+	100%{border-right: 1px solid #fff} 
+	}
+
+	</style>	
+</head>
+<body>
+	<div id="main" class="scroll-container">
+		<section class="section1">
+			<div class="night">
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+				<div class="shooting_star"></div>
+			  </div>
+		</section>
+		<section class="section2">
+			<!-- <div class="css-typing">
+				<p>
+				Typed text 1
+				</p>
+				<p>
+				Typed text 2 Longer
+				</p>
+				<p>
+				Typed text 3
+				</p>
+			</div> -->
+		</section>
+		<section class="section3">
+			<div>			
+			</div>
+		</section>
+		<section class="section4">
+			<div>				
+			</div>
+		</section>
+	</div>
+	<script src="full-page-scroll.js"></script>
+	<script type="text/javascript">
+		new fullScroll({
+			displayDots: true,
+			dotsPosition: 'left',
+			animateTime: 0.7,
+			animateFunction: 'ease'
+		});
+	</script>
+</body>
+</html>
